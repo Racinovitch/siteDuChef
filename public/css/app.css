@@ -16573,7 +16573,7 @@ header .row .col-4 div #btn2:active {
   background-image: url(../images/team_background.jpg);
   background-size: cover;
   width: 100%;
-  height: 550px;
+  height: auto;
   text-align: center;
   z-index: -1;
 }
@@ -16742,6 +16742,11 @@ header .row .col-4 div #btn2:active {
 }
 #section3 #cadre #part1 .dedans .row .col-10 .imgDeFond p {
   color: white;
+}
+#section3 #cadre #part1 .dedans .row .col-10 .imgDeFond .zoneRech {
+  width: 40%;
+  margin-left: 4px;
+  margin-right: 4px;
 }
 #section3 #cadre #part1 .dedans .row .col-10 .imgDeFond button {
   padding: 10px;

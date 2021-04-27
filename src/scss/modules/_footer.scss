@@ -1,0 +1,9 @@
+footer{
+    background-color: yellow;
+    width: 100%;
+    height: 300px;
+    position: fixed;
+    bottom:0;
+    z-index: -1;
+    //margin-bottom:300px; à appliquer à la section précedente
+}

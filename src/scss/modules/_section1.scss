@@ -1,0 +1,180 @@
+#section1{
+    background-image: url(../images/main_bg.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    height: auto;
+    #cadre{
+        width: 90%;
+        background-color: white;
+        position: relative;
+        #hg{
+            position: absolute;
+            top: 0;
+            left:0;
+        }
+        #hd{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        #bg{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        #bd{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        #part1{
+            margin-bottom: 60px;
+            .dedans{
+                h2{
+                    font-family: 'Courgette', cursive;
+                    .rougeTitre{
+                        color:$rouge;
+                    }
+                }
+                .imgSub{
+                    background-image: url(../images/sub.png);
+                    background-size: contain;
+                    width: auto;
+                    height: auto;
+                    z-index: 999;
+                    margin: auto;
+                }
+            }
+        }
+        #part2{
+            h2{
+                font-family: 'Courgette', cursive;
+                .rougeTitre{
+                    color:$rouge;
+                }
+            }
+            .imgSub{
+                background-image: url(../images/sub.png);
+                background-size: contain;
+                width: 50%;
+                height: 10px;
+                z-index: 999;
+                margin: auto;
+            }
+            #globMenu{
+                #miniMenu{
+                    #breakfast{
+                        border-right: solid 1px gray !important;
+                        border-bottom: solid 1px gray !important;
+                        text-align: center;
+                        font-family:"Courgette";
+                        border-radius: 0 !important;
+                        i{ 
+                            font-size: 70px;
+                        }
+                    }
+                    #breakfast:focus{
+                        border-right: solid 2px $rouge !important;
+                        i{ 
+                            font-size: 70px;
+                            color: $rouge;
+                        }
+                    }
+                    #lunch{
+                        border-right: solid 1px gray !important;
+                        border-bottom: solid 1px gray !important;
+                        text-align: center;
+                        font-family:"Courgette";
+                        border-radius: 0 !important;
+                        i{ 
+                            font-size: 70px;
+                        }
+                    }
+                    #lunch:focus{
+                        border-right: solid 2px $rouge !important;
+                        i{ 
+                            font-size: 70px;
+                            color: $rouge;
+                        }
+                    }
+                    #snack{
+                        border-right: solid 1px gray !important;
+                        border-bottom: solid 1px gray !important;
+                        text-align: center;
+                        font-family:"Courgette";
+                        border-radius: 0 !important;
+                        i{ 
+                            font-size: 70px;
+                        }
+                    }
+                    #snack:focus{
+                        border-right: solid 2px $rouge !important;
+                        i{ 
+                            font-size: 70px;
+                            color: $rouge;
+                        }
+                    }
+                    #dinner{
+                        border-right: solid 1px gray !important;
+                        text-align: center;
+                        font-family:"Courgette";
+                        border-radius: 0 !important;
+                        i{ 
+                            font-size: 70px;
+                        }
+                    }
+                    #dinner:focus{
+                        border-right: solid 2px $rouge !important;
+                        i{ 
+                            font-size: 70px;
+                            color: $rouge;
+                        }
+                    }
+                }
+                #v-pills-tabContent{
+                    #v-pills-home{
+                        div{
+                            div{
+                                img{
+                                    width:115px;
+                                    border: 3px solid rgb(212, 195, 195);
+                                }
+                            }
+                        }
+                    }
+                    #v-pills-profile{
+                        div{
+                            div{
+                                img{
+                                    width:115px;
+                                    border: 3px solid rgb(212, 195, 195);
+                                }
+                            }
+                        }
+                    }
+                    #v-pills-messages{
+                        div{
+                            div{
+                                img{
+                                    width:115px;
+                                    border: 3px solid rgb(212, 195, 195);
+                                }
+                            }
+                        }
+                    }
+                    #v-pills-settings{
+                        div{
+                            div{
+                                img{
+                                    width:115px;
+                                    border: 3px solid rgb(212, 195, 195);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }   
+    }
+}
+

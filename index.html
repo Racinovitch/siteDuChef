@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,627 @@
     <title>Le site du Chef!</title>
     <link rel="stylesheet" href="public/css/app.css">
 </head>
+
 <body>
 
     <header class="w-100 text-center">
         <nav class="d-flex justify-content-center align-items-center">
-            <a href="">HOME</a>
-            <a href="">ABOUT US</a>
-            <a href="">MENU LIST</a>
-            <a href="">TEAM</a>
+            <div class="d-flex justify-content-center">
+                <div class="bg"><a href="">HOME</a></div>
+                <div class="bg"><a href="">ABOUT US</a></div>
+                <div class="bg"><a href="">MENU LIST</a></div>
+                <div class="bg"><a href="">TEAM</a></div>
+            </div>
             <img src="public/images/logo.png" alt="">
-            <a href="">RESERVATION</a>
-            <a href="">BLOG</a>
-            <a href="">TESTIMONIALS</a>
-            <a href="">CONTACT US</a>
+            <div class="d-flex justify-content-center">
+                <div class="bg"><a href="">RESERVATION</a></div>
+                <div class="bg"><a href="">BLOG</a></div>
+                <div class="bg"><a href="">TESTIMONIALS</a></div>
+                <div class="bg"><a href="">CONTACT US</a></div>
+            </div>
         </nav>
+        <div class="row w-100 d-flex align-items-center">
+            <div class="col-4"></div>
+            <div class="col-4">
+                <p>Whatever your OCCASION, taste makes it one to REMEMBER!</p>
+                <div>
+                    <button id="btn1">PURCHASE THEME</button>
+                    <button id="btn2">LEARN MORE</button>
+                </div>
+            </div>
+            <div class="col-4"></div>
+        </div>
     </header>
+    <section id="section1">
+        <div style="color: white;">.</div>
+        <div id="cadre" class="m-auto bg-white">
+
+            <img id="hg" src="public/images/1hg.png" alt="">
+            <img id="hd" src="public/images/1hd.png" alt="">
+            <img id="bg" src="public/images/1bg.png" alt="">
+            <img id="bd" src="public/images/1bd.png" alt="">
+
+            <div id="part1">
+                <div class="dedans w-50 m-auto text-center">
+                    <h2 class="pt-4"><span class="rougeTitre">OUR</span> story</h2>
+                    <div class="imgSub mt-0 pt-0 pb-4"></div>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, ullam?
+                        Soluta tempora deleniti dolorem culpa, in fuga eum, officiis expedita,
+                        neque unde praesentium nesciunt minima eaque repudiandae laudantium incidunt
+                        est quas voluptas earum ducimus. Natus non hic nesciunt nemo rem illo consequatur
+                        sunt similique, reiciendis delectus veritatis aperiam quidem, architecto dolores
+                        sequi qui, doloribus modi nihil eos repellendus velit aut.
+                    </p>
+                </div>
+            </div>
+
+
+            <div id="part2" class="w-100 m-auto text-center">
+
+                <h2><span class="rougeTitre">OUR</span> menu list</h2>
+                <div class="imgSub pt-0 pb-4"></div>
+
+                <div id="globMenu" class="w-100 d-flex align-items-center">
+                    <div id="miniMenu" class="w-25">
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active bg-light text-dark d-flex flex-column align-items-center"
+                                id="breakfast" data-toggle="pill" href="#v-pills-home" role="tab"
+                                aria-controls="v-pills-home" aria-selected="true">
+                                <i class="fas fa-mug-hot"></i>BreakFast</a>
+                            <a class="nav-link bg-light text-dark d-flex flex-column align-items-center" id="lunch"
+                                data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile"
+                                aria-selected="false">
+                                <i class="fas fa-hamburger"></i>Lunch</a>
+                            <a class="nav-link bg-light text-dark d-flex flex-column align-items-center" id="snack"
+                                data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages"
+                                aria-selected="false">
+                                <i class="fas fa-cookie-bite"></i>Snack</a>
+                            <a class="nav-link bg-light text-dark d-flex flex-column align-items-center" id="dinner"
+                                data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings"
+                                aria-selected="false">
+                                <i class="fas fa-utensils"></i>Dinner</a>
+                        </div>
+                    </div>
+
+
+                    <div class="tab-content mb-5 mt-3" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                            <div class="w-100 d-flex justify-content-between my-2">
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between my-2">
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between my-2">
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between my-2">
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between my-2">
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    
+                        <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                            <div class="w-100 d-flex justify-content-between my-2">
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between my-2">
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between my-2">
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between my-2">
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between my-2">
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                            <div class="w-100 d-flex justify-content-between my-2">
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between my-2">
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between my-2">
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between my-2">
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between my-2">
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                            <div class="w-100 d-flex justify-content-between my-2">
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between my-2">
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between my-2">
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between my-2">
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between my-2">
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                                <div class="w-50 d-flex align-items-center mx-3">
+                                    <img src="public/images/menu_image_1.jpg" class="rounded-circle mr-2" alt="">
+                                    <div class="text-left">
+                                        <h6>Deer steak with potatoes</h6>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur,
+                                            adipisicing elit. Provident, ex?</p>
+                                    </div>
+                                    <span class="bg-fondGris text-rouge px-3">$25</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div style="color: white;">.</div>
+    </section>
+    <section id="section2">
+        <h2 class="pt-3"><span class="rougeTitre">MEET</span> our chiefs</h2>
+        <div class="imgSub pt-0 pb-4"></div>
+        <div class="d-flex justify-content-around align-items-bottom">
+            <div class="d-flex flex-column align-items-center">
+                <div class="image1"><img class="mt-5" src="public/images/chef1.png" alt=""></div>
+                <p class="text-white">Lorem ipsum</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <div class="image2"><img class="mt-5" src="public/images/chef2.png" alt=""></div>
+                <p class="text-white">Lorem ipsum</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <div class="image3"><img class="mt-5" src="public/images/chef3.png" alt=""></div>
+                <p class="text-white">Lorem ipsum</p>
+            </div>
+            <div class="d-flex flex-column align-items-center">
+                <div class="image4"><img class="mt-5" src="public/images/chef4.png" alt=""></div>
+                <p class="text-white">Lorem ipsum</p>
+            </div>    
+        </div>
+    </section>
+
+    <section id="section3">
+        <div style="color: white;">.</div>
+        <div id="cadre" class="m-auto bg-white">
+
+            <img id="hg2" src="public/images/2hg.png" alt="">
+            <img id="hd2" src="public/images/2hd.png" alt="">
+            <img id="bg2" src="public/images/2bg.png" alt="">
+            <img id="bd2" src="public/images/2bd.png" alt="">
+
+            <div id="part1">
+                <div class="dedans w-50 m-auto text-center">
+                    <h2 class="pt-4"><span class="rougeTitre">BOOK</span> Your Table</h2>
+                    <div class="imgSub mt-0 pt-0 pb-4"></div>
+
+                    <div class="row">
+                        <div class="col-1"></div>
+                        <div class="col-10">
+                            <div class="imgDeFond">
+                                <p class="mt-5">For any query please call us at:<strong>+91-234567890</strong></p>
+                                <input type="text" class="form-control w-25 my-1 mx-5" placeholder="First name">
+                                <input type="text" class="form-control w-25 my-1 mx-5" placeholder="First name">
+                                <input type="text" class="form-control w-25 my-1 mx-5" placeholder="First name">
+                                <input type="text" class="form-control w-25 my-1 mx-5" placeholder="First name">
+                                <input type="text" class="form-control w-25 my-1 mx-5" placeholder="First name">
+                                <input type="text" class="form-control w-25 my-1 mx-5" placeholder="First name">
+                                <input type="text" class="form-control w-25 my-1 mx-5" placeholder="First name">
+                                <input type="text" class="form-control w-25 my-1 mx-5" placeholder="First name">
+                                <button class="mb-5 mt-3">BOOK NOW</button>
+                            </div>
+                        </div>
+                        <div class="col-1"></div>
+                    </div>
+
+                    <h2 class="pt-4"><span class="rougeTitre">OUR</span> blog</h2>
+                    <div class="imgSub mt-0 pt-0 pb-4"></div>
+                    <div id="blog" class="w-100 d-flex justify-content-around align-items-center flex-wrap">
+                        <div id="premImg" class="d-flex align-items-center justify-content-center mt-5">
+                            <div id="miniBlog" class="w-75 bg-danger"><b>12</b> avril 2017/<b>20</b> comments/<b>35</b> Likes</div>
+                        </div>
+                        <div id="deuxImg" class="d-flex align-items-center justify-content-center mt-5">
+                            <div id="miniBlog2" class="w-75 bg-danger"><b>12</b> avril 2017/<b>20</b> comments/<b>35</b> Likes</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
     
-<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
-<script src="node_modules/jquery/dist/jquery.js"></script>
+    <!-- <footer>
+        <div class="bg-danger">dg</div>
+    </footer> -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+
 </body>
+
 </html>

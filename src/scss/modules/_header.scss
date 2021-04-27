@@ -7,24 +7,104 @@ header{
     height: 800px;
     position: relative;
     nav{
+        background-color: rgb(0, 0, 0, 0.35);
+        backdrop-filter: blur(5px);
         position: fixed;
         width: 100%;
         top: 0;
         z-index:1000;
-        a{
-            color: white;
-            text-decoration: none;
-            border-top: solid 2px white;
-            border-bottom: solid 2px white;
-            padding: 10px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        div{
+            .bg{
+                border-top: solid 2px white;
+                border-bottom: solid 2px white;
+                padding: 5px;
+                max-width: max-content;
+                position:relative;
+                text-align: center;
+                a{
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+            .bg::before{
+                content:"";
+                background-color: $rouge;
+                width: 100%;
+                height: 0;
+                transition: 0.5s;
+                position:absolute;
+                bottom:0;
+                left: 0;
+                z-index: -1;
+            }
+            .bg:hover::before{
+                content:"";
+                height: 100%;
+                z-index: -1;
+            }
+            img{
+                margin: 10px;
+            }
         }
-        a:hover{
-            background-color: red;
-            text-decoration: none;
-            color: white;
+    }
+    .row{
+        .col-4{
+            p{
+                font-family: 'Courgette', cursive;
+                font-size: xx-large;
+                color: white;
+                margin-top: 60%;
+            }
+            div{
+                #btn1{
+                    padding: 10px;
+                    border-radius: 25px;
+                    outline: none;
+                    border: none;
+                    margin: 2px;
+                }
+                #btn1:hover{
+                    background-color: black;
+                    color: white;
+                }
+                #btn1:active{
+                    color: $rouge;
+                }
+                #btn2{
+                    padding: 10px;
+                    border-radius: 25px;
+                    outline: none;
+                    border: none;
+                    margin: 2px;
+                    background-color: $rouge;
+                    color: white;
+                }
+                #btn2:hover{
+                    background-color: white;
+                    color: $rouge;
+                }
+                #btn2:active{
+                    background-color: black;
+                }
+            }
         }
-        img{
-            margin: 10px;
+    }
+}
+
+@media (min-width:600px) and (max-width:850px){
+    header{
+        background-color: grey;
+        background-image: url("../images/banner1.jpg");
+        background-size: cover;
+        background-blend-mode: multiply;
+        width: 100%;
+        height: 800px;
+        nav{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
         }
     }
 }

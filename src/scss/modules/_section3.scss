@@ -1,0 +1,116 @@
+#section3{
+    background-image: url(../images/main_bg.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    height: auto;
+    #cadre{
+        width: 90%;
+        background-color: white;
+        position: relative;
+        #hg2{
+            position: absolute;
+            top: 0;
+            left:0;
+        }
+        #hd2{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        #bg2{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+        #bd2{
+            position: absolute;
+            bottom: 0;
+            right: 0;
+        }
+        #part1{
+            margin-bottom: 60px;
+            .dedans{
+                h2{
+                    font-family: 'Courgette', cursive;
+                    .rougeTitre{
+                        color:$rouge;
+                    }
+                }
+                .imgSub{
+                    background-image: url(../images/sub.png);
+                    background-size: contain;
+                    width: auto;
+                    height: auto;
+                    z-index: 999;
+                    margin: auto;
+                }
+                .row{
+                    .col-10{
+                        .imgDeFond{
+                            background-image: url("../images/book_table_bg.jpg");
+                            background-size: cover;
+                            width: 100%;;
+                            height: auto;
+                            margin-top: 20px;
+                            border-radius: 15px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            flex-wrap: wrap;
+                            p{
+                                color: white;
+                            }
+                            button{
+                                padding: 10px;
+                                border-radius: 25px;
+                                outline: none;
+                                border: none;
+                                margin: 2px;
+                                background-color: $rouge;
+                                color: white;
+                            }
+                            button:hover{
+                                background-color: white;
+                                color: $rouge;
+                            }
+                            button:active{
+                                background-color: black;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #blog{
+            #premImg{
+                background-image: url("../images/blog_img1.jpg");
+                background-size: cover;
+                width: 45%;
+                height: 117px;
+                border-radius: 15px;
+                border: 3px solid rgb(212, 195, 195);
+                #miniBlog{
+                    margin-top:50%;
+                    padding: 5px;
+                    border-radius: 10px;
+                    color: white;
+                }
+            }
+            #deuxImg{
+                background-image: url("../images/blog_img2.jpg");
+                background-size: cover;
+                width: 45%;
+                height: 117px;
+                margin-left: 44px;
+                border-radius: 15px;
+                border: 3px solid rgb(212, 195, 195);
+                #miniBlog2{
+                    margin-top:50%;
+                    padding: 5px;
+                    border-radius: 10px;
+                    color: white;
+                }
+            }
+        }
+    }
+}

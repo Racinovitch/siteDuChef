@@ -1,0 +1,115 @@
+#section2{
+    background-image: url(../images/team_background.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 550px;
+    text-align: center;
+    z-index: -1;
+    h2{
+        color: white;
+        font-family: 'Courgette', cursive;
+        .rougeTitre{
+            color:$rouge;
+        }
+    }
+    .imgSub{
+        background-image: url(../images/sub.png);
+        background-size: contain;
+        width: 50%;
+        height: auto;
+        // z-index: 999;
+        margin: auto;
+    }
+    div{
+        div{
+            .image1{
+                max-width: max-content;
+                position:relative;
+            }
+            .image1::before{
+                content:"";
+                color:honeydew;
+                font-size: 20px;
+                background-color: $rouge;
+                width: 100%;
+                height: 0;
+                transition: 1s;
+                position:absolute;
+                bottom:0;
+                z-index: 100;
+            }
+            .image1:hover::before{
+                content:"Jo' la Frite";
+                height: 25%;
+                opacity: 80%;
+                z-index: 100;
+            }
+            .image2{
+                max-width: max-content;
+                position:relative;
+            }
+            .image2::before{
+                content:"";
+                color:honeydew;
+                font-size: 20px;
+                background-color: $rouge;
+                width: 100%;
+                height: 0;
+                transition: 1s;
+                position:absolute;
+                bottom:0;
+                z-index: 100;
+            }
+            .image2:hover::before{
+                content:"Tony Merguez";
+                height: 25%;
+                opacity: 80%;
+                z-index: 100;
+            }
+            .image3{
+                max-width: max-content;
+                position:relative;
+            }
+            .image3::before{
+                content:"";
+                color:honeydew;
+                font-size: 20px;
+                background-color: $rouge;
+                width: 100%;
+                height: 0;
+                transition: 1s;
+                position:absolute;
+                bottom:0;
+                z-index: 100;
+            }
+            .image3:hover::before{
+                content:"Abdel la Fricandelle";
+                height: 25%;
+                opacity: 80%;
+                z-index: 100;
+            }
+            .image4{
+                max-width: max-content;
+                position:relative;
+            }
+            .image4::before{
+                content:"";
+                color:honeydew;
+                font-size: 20px;
+                background-color: $rouge;
+                width: 100%;
+                height: 0;
+                transition: 1s;
+                position:absolute;
+                bottom:0;
+                z-index: 100;
+            }
+            .image4:hover::before{
+                content:"Mimoune la Zitoune";
+                height: 25%;
+                opacity: 80%;
+                z-index: 100;
+            }
+        }
+    }
+}

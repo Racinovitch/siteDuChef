@@ -1,0 +1,45 @@
+#section5{
+        background-image: url(../images/main_bg.jpg);
+        background-repeat: repeat;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        margin-bottom:300px;
+        margin-top: 0;
+        h2{
+            font-family: 'Courgette', cursive;
+            color: black;
+            .rougeTitre{
+                color:$rouge;
+            }
+        }
+        .imgSub{
+            background-image: url(../images/sub.png);
+            background-size: contain;
+            width: 70%;
+            height: 30px;
+            z-index: 99;
+            margin: auto;
+        }
+        div{
+            #blocCentre{
+                width: 25%;
+                height: auto;
+                background-color: $rouge;
+                border-radius: 15px;
+                color: white;
+                #tel{
+                    border-top: solid 1px white;
+                    border-bottom: solid 1px white;
+                }
+                i{
+                    font-size: 300%;
+                }
+            }
+        }
+        #contoBg{
+            height:15px;
+            background-image: url("../images/footer_bottom_decoration_img.png");
+            background-color: black;
+        }
+}

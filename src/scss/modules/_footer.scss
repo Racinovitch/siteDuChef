@@ -1,9 +1,28 @@
 footer{
-    background-color: yellow;
+    background-image: url(../images/footer_background.jpg);
+    background-size: contain;
     width: 100%;
-    height: 300px;
+    height: 350px;
     position: fixed;
     bottom:0;
-    z-index: -1;
-    //margin-bottom:300px; à appliquer à la section précedente
-}
+    z-index: -10;
+    div{
+        color: white;
+    }
+    .tags{
+        span{
+            padding: 5px;
+            background-color: $rouge;
+            color: white;
+            border: 1px solid white;
+            border-radius: 25px;
+        }
+    }
+    #bande{
+        background-color: $rouge;
+        width: 100%;
+        height: 15%;
+        position: absolute;
+        bottom: 0;
+    }
+    }

@@ -1,8 +1,27 @@
+body{
+    background-image: url(../images/main_bg.jpg);
+    background-repeat: repeat;
+    width: 100%;
+    height: auto;
 #section1{
     background-image: url(../images/main_bg.jpg);
     background-repeat: repeat;
     width: 100%;
     height: auto;
+    #contBg{
+        height:12px;
+        background-image: url("../images/footer_bottom_decoration_img.png");
+        background-color: #5D5D5E;
+        transform: rotate(180deg);
+        margin:0;
+        border: none;
+}
+    #imgDeco{
+        background-image: url(../images/main_bg.jpg);
+        background-repeat: repeat;
+        width: 100%;
+        height: auto;
+    }
     #cadre{
         width: 90%;
         background-color: white;
@@ -135,8 +154,8 @@
                     #v-pills-home{
                         div{
                             div{
+                                width: 50%;
                                 img{
-                                    width:115px;
                                     border: 3px solid rgb(212, 195, 195);
                                 }
                             }
@@ -178,3 +197,28 @@
     }
 }
 
+
+}
+
+@media (min-width:300px) and (max-width: 600px){
+    #v-pills-home{
+        flex-direction: column;
+        div{
+            div{
+                p{
+                    text-align: justify;
+                }
+            }
+        }
+    }
+    #v-pills-profile{
+        flex-direction: column;
+    }
+    #v-pills-messages{
+        flex-direction: column;
+    }
+    #v-pills-settings{
+        flex-direction: column;   
+    }
+
+}
